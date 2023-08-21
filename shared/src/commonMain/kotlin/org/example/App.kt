@@ -1,11 +1,4 @@
 package org.example
 
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
+//val SIZE_MAX = 1
 
-@Composable
-fun App() {
-    Text("Hello")
-}
-
-val SIZE_MAX = 1
