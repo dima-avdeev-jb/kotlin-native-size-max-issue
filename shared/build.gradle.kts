@@ -1,8 +1,5 @@
-@file:Suppress("OPT_IN_IS_NOT_ENABLED")
-
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.compose")
 }
 
 version = "1.0-SNAPSHOT"
@@ -21,11 +18,6 @@ kotlin {
 
     sourceSets {
         val commonMain by getting {
-            dependencies {
-                implementation(compose.runtime)
-                implementation(compose.foundation)
-                implementation(compose.material)
-            }
         }
         val iosMain by creating {
             dependsOn(commonMain)
