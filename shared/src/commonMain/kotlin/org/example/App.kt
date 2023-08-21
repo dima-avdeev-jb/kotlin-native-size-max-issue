@@ -8,4 +8,4 @@ fun App() {
     Text("Hello")
 }
 
-const val SIZE_MAX = 80
+val SIZE_MAX = 1
